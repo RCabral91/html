@@ -4,23 +4,109 @@
     <head>
         <title>Produtos</title>
         <meta charset="utf-8">
+
+        <style>
+
+            table, th, td{border: 1px solid #000;}
+            th, td {padding: 18px ;}
+            .cerveja {background-color:rgb(125, 241, 241);}
+
+        </style>
     </head>
 
     <body>
         <header>
-            <h1>Delirium do Feijão</h1>  
+            <h1>Delirium do Feijão</h1> 
+            <a 
+                href="C:\Users\faelc\Desktop\PROGRAMACAO\Projetos\PROJETOS\html\loja-de-cerveja.html"
+                target="_blank"
+            >   
+                Página inicial
+            </a>
+
             <h2>Menu</h2>
             <ol>
-                <label>Produtos</label>            
-                <label>Quem Somos</label>
-                <label>Fale Conosco</label>
+                <label>Produtos</label>   
+
+                <a 
+                    href="C:\Users\faelc\Desktop\PROGRAMACAO\Projetos\PROJETOS\html\quem-somos.html"
+                    target="_blank"
+                >
+                    Quem Somos
+                </a>
+
+                <a 
+                    href="C:\Users\faelc\Desktop\PROGRAMACAO\Projetos\PROJETOS\html\fale-conosco.html"
+                    target="_blank"
+                >
+                    Fale Conosco
+                </a>
             </ol>
 
         </header>
 
         <main>
+            <table>                
+                <caption><strong>Cervejas em estoque</strong></caption>
+                <colgroup>
+                    <col class="foto">
+                    <col class="cerveja">
+                    <col class="preco">
+                </colgroup>
+                
+                <thead>
+                    <tr>
+                        <th>Foto</th>
+                        <th>Cerveja</th>
+                        <th>Preço</th>
+                    </tr>
+                </thead>
 
-            tabela
+                <tbody>
+                    <tr>
+                        <td>
+                            <img 
+                                src="cerveja-delirium-nocturnum-330ml.jpg" 
+                                width="150"
+                            >
+                        </td>
+                        <td>
+                            <a 
+                                href="C:\Users\faelc\Desktop\PROGRAMACAO\Projetos\PROJETOS\html\produto-escolhido.html" 
+                                target="_blank"
+                            >
+                                Delirium Nocturnum 330ml
+                            </a>
+                        </td>
+                        <td>R$ 6,49</td>
+                    
+                    </tr>
+
+                    <tr>
+                        <td><img src="cerveja-delirium-red-330ml.jpg" width="150" ></td>
+                        <td>Delirium Red 330ml</td>
+                        <td>R$ 7,90</td>
+                    </tr>
+
+                    <tr>
+                        <td><img src="cerveja-delirium-tremens-strong-blond-beer330ml.jpg" width="150"></td>
+                        <td>Delirium Tremens Strong Blond 330ml</td>
+                        <td>R$ 9,90</td>
+                    </tr>
+
+                    <tr>
+                        <td><img src="delirium-argentum-330ml.jpg" width="150"></td>
+                        <td>Delirium Argentum 330ml</td>
+                        <td>R$ 10,90</td>
+                    </tr>
+
+                    <tr>
+                        <td><img src="delirium-nocturnum-strong-dark-beer-330ml.jpg" width="150"></td>
+                        <td>Delirium Nocturnum Strong Dark 330ml</td>
+                        <td>R$ 12,90</td>
+                    </tr>
+                </tbody>
+            </table>
             
         </main>
 
@@ -28,3 +114,6 @@
         <footer>
             <h3>Um bom bebedor cura a ressaca com Delirium.</h3>
         </footer>
+
+    </body>
+</html>

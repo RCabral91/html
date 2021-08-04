@@ -9,18 +9,71 @@
     <body>
         <header>
             <h1>Delirium do Feijão</h1>  
+            <a 
+                href="C:\Users\faelc\Desktop\PROGRAMACAO\Projetos\PROJETOS\html\loja-de-cerveja.html"
+                target="_blank"
+            >   
+                Página inicial
+            </a>
+
             <h2>Menu</h2>
             <ol>
-                <label>Produtos</label>            
-                <label>Quem Somos</label>
-                <label>Fale Conosco</label>
+                <a 
+                href="C:\Users\faelc\Desktop\PROGRAMACAO\Projetos\PROJETOS\html\produtos.html" 
+                target="_blank"
+            >   
+                Produtos    
+            </a> 
+              
+            <a 
+                href="C:\Users\faelc\Desktop\PROGRAMACAO\Projetos\PROJETOS\html\quem-somos.html"
+                target="_blank"
+            >
+                Quem Somos
+            </a>
+
+                Fale Conosco
             </ol>
 
         </header>
 
         <main>
+            <p>
+                <h3>
+                    Deixe sua dúvida, sugestão ou reclamação para podermos 
+                    melhorar cada vez mais nosso atendimento.
+                </h3>
+            </p>
+            <form method="POST" action="pagina-de-destino.html">
 
-            Fale Conosco - criar formulario
+                <div>
+                    <label>Nome:</label>
+                    <div>
+                        <input type="text" name="nome">
+                    </div>
+                </div>
+                <div>
+                    <label>E-mail:</label>
+                    <div>
+                        <input type="email" name="email" required>
+                    </div>
+                </div>
+                <div>
+                    <label>Telefone:</label>
+                    <div>
+                        <input type="tel" name="telefone">
+                    </div>
+                </div>
+                <div>
+                    <label>Mensagem:</label>
+                    <div>
+                        <textarea name="mensagem" required></textarea>
+                    </div>
+                </div>
+                    <div>
+                        <button type="submit">Enviar</button>
+                    </div>
+            </form>
             
         </main>
 
@@ -28,3 +81,6 @@
         <footer>
             <h3>Um bom bebedor cura a ressaca com Delirium.</h3>
         </footer>
+
+    </body>
+</html>

@@ -2,15 +2,11 @@
 <html lang="pt-br">
 
     <head>
-        <title>Produtos</title>
+        <title>Produto escolhido</title>
         <meta charset="utf-8">
-
         <style>
-
             table, th, td{border: 1px solid #000;}
             th, td {padding: 18px ;}
-            .cerveja {background-color:rgb(125, 241, 241);}
-
         </style>
     </head>
 
@@ -23,11 +19,16 @@
             >   
                 Página inicial
             </a>
-
+             
             <h2>Menu</h2>
             <nav>
-                <span>Produtos</span>
-
+                <a 
+                    href="C:\Users\faelc\Desktop\PROGRAMACAO\Projetos\PROJETOS\html\produtos.html" 
+                    target="_blank"
+                >   
+                    Produtos    
+                </a> 
+              
                 <a 
                     href="C:\Users\faelc\Desktop\PROGRAMACAO\Projetos\PROJETOS\html\quem-somos.html"
                     target="_blank"
@@ -48,18 +49,20 @@
         <main>
             <table>                
                 <caption>
-                    <strong>Cervejas em estoque</strong>
+                    <strong>A sua cerveja</strong>
                 </caption>
                 <colgroup>
                     <col class="foto">
                     <col class="cerveja">
+                    <col class="descricao">
                     <col class="preco">
                 </colgroup>
-                
+                    
                 <thead>
                     <tr>
                         <th>Foto</th>
                         <th>Cerveja</th>
+                        <th>Descrição</th>
                         <th>Preço</th>
                     </tr>
                 </thead>
@@ -73,42 +76,21 @@
                             >
                         </td>
                         <td>
-                            <a 
-                                href="C:\Users\faelc\Desktop\PROGRAMACAO\Projetos\PROJETOS\html\produto-escolhido.html" 
-                                target="_blank"
-                            >
-                                Delirium Nocturnum 330ml
-                            </a>
+                            Delirium Nocturnum 330ml
+                            
                         </td>
+                        <td>A Delirium Nocturnum é uma cerveja escura, encorpada, 
+                        triplamente fermentada sendo que a última fermentação 
+                        ocorre na própria garrafa. <br>Em sua fabricação são 
+                        utilizados 5 maltes e 3 tipos de leveduras.<br> 
+                        Seu aroma é adocicado e o sabor é complexo, com nuances 
+                        de passas, chocolate e semente de erva-doce.</td>
                         <td>R$ 6,49</td>
                     
                     </tr>
 
-                    <tr>
-                        <td><img src="cerveja-delirium-red-330ml.jpg" width="150" ></td>
-                        <td>Delirium Red 330ml</td>
-                        <td>R$ 7,90</td>
-                    </tr>
-
-                    <tr>
-                        <td><img src="cerveja-delirium-tremens-strong-blond-beer330ml.jpg" width="150"></td>
-                        <td>Delirium Tremens Strong Blond 330ml</td>
-                        <td>R$ 9,90</td>
-                    </tr>
-
-                    <tr>
-                        <td><img src="delirium-argentum-330ml.jpg" width="150"></td>
-                        <td>Delirium Argentum 330ml</td>
-                        <td>R$ 10,90</td>
-                    </tr>
-
-                    <tr>
-                        <td><img src="delirium-nocturnum-strong-dark-beer-330ml.jpg" width="150"></td>
-                        <td>Delirium Nocturnum Strong Dark 330ml</td>
-                        <td>R$ 12,90</td>
-                    </tr>
-                </tbody>
             </table>
+
             
         </main>
 
@@ -116,6 +98,5 @@
         <footer>
             <h3>Um bom bebedor cura a ressaca com Delirium.</h3>
         </footer>
-
     </body>
 </html>
